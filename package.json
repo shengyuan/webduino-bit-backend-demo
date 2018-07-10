@@ -1,0 +1,17 @@
+{
+  "name": "webduino-bit-backend-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webduino-bit-module-button": "git+https://github.com/webduinoio/webduino-bit-module-button.git#gh-pages",
+    "webduino-blockly": "0.0.12",
+    "webduino-js": "^0.4.25"
+  }
+}
