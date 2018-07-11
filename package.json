@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "webduino-bit-module-button": "git+https://github.com/webduinoio/webduino-bit-module-button.git#gh-pages",
+    "webduino-bit-module-button": "^0.1.0",
+    "webduino-bit-module-dht": "^0.1.0",
+    "webduino-bit-module-led-matrix": "^0.1.0",
+    "webduino-bit-module-thermistor": "^0.1.0",
     "webduino-blockly": "0.0.12",
     "webduino-js": "^0.4.25"
   }
