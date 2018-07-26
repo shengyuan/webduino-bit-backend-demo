@@ -1,7 +1,7 @@
 const webduino = require('webduino-js');
 require('webduino-bit-module-button')(webduino);
 require('webduino-blockly');
-const TYPE = 1;
+const TYPE = 0;
 
 switch (TYPE) {
   case 0:
@@ -20,7 +20,7 @@ switch (TYPE) {
  * 使用 webduino-blockly 的寫法
  */
 function demo_blockly() {
-  boardReady({ board: 'Bit', device: 'J7ecBjhDEiAecaXUbW', transport: 'mqtt' }, (board) => {
+  boardReady({ board: 'Bit', device: 'ydecvdTXWiJbU4WS2b', transport: 'mqtt' }, (board) => {
     console.log('開始囉');
     board.samplingInterval = 250;
     const btnA = getPullupButton(board, 35);
@@ -49,7 +49,7 @@ function demo_blockly() {
 function demo_js() {
   const opts = {
     board: 'Bit',
-    device: 'J7ecBjhDEiAecaXUbW',
+    device: 'ydecvdTXWiJbU4WS2b',
     transport: 'mqtt'
   };
   let board = new webduino.board[opts.board](opts);

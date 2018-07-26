@@ -10,9 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@webduinoio/bit-mpu9250": "^0.1.2",
     "webduino-bit-module-button": "^0.1.0",
     "webduino-bit-module-dht": "^0.1.0",
-    "webduino-bit-module-led-matrix": "^0.1.0",
+    "webduino-bit-module-led-matrix": "^0.1.4",
     "webduino-bit-module-thermistor": "^0.1.0",
     "webduino-blockly": "0.0.12",
     "webduino-js": "^0.4.25"
